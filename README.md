@@ -63,10 +63,10 @@ In the prod/helm folder, deploy the charts in the "besu" namespace.
 
     kubectl get pods --namespace besu
     
-![Status](https://github.com/YounesBM/besu-prod/blob/main/Pods.JPG?raw=true)
+![Status](https://github.com/YounesBM/besu-prod-issue/blob/main/Pods.JPG?raw=true)
 
 ## Logs member-1
 
     kubectl logs besu-node-member-1-0 -c member-1-besu --namespace besu
 
-![Logs](https://github.com/YounesBM/besu-prod/blob/main/Logs%20member-1-besu.JPG?raw=true)
+![Logs](https://github.com/YounesBM/besu-prod-issue/blob/main/Logs%20member-1-besu.JPG?raw=true)
